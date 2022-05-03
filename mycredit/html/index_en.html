@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font-family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <!-- logo-site -->
+    <link rel="stylesheet" href="img/Component 31.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="img/Component 31.svg" type="image/x-icon">
+    <!-- style -->
+    <link rel="stylesheet" href="style_en.css">
+    <!-- name -->
+    <title>MyCredit</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="header_cap">
+                <img src="img/Component 32.svg" alt="logo">
+                <ul class="info">
+                    <li class="num">0 (800) 780-000</li>
+                    <li>Free on Ukraine</li>
+                </ul>
+                <ul>
+                    <li><a href="index_ua.html"><button class="lang">UA</button></a></li>
+                    <li><a href="index_en.html"><button class="lang">EN</button></a></li>
+                </ul>
+                <ul>
+                    <li><a href=""><button class="log"><img src="img/Group 525.png" alt=""> Log</button></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="aboute">
+        <div class="container">
+            <img src="img/ENGLISH.svg" alt="photo">
+
+            <div class="slider_range">
+
+                <p class="price">Select amount</p>
+                <div class="slidecontainer">
+                    <form name="myform" oninput="range1value.value = range1.valueAsNumber;">
+                        <p><output class="price1" name="range1value" for="range1">5000 <p class="ghr">uah</p></output>
+                        </p>
+                        <input id="fader" class="slider" name="range1" type="range" step="100" list="volsettings"
+                            min="600" max="10000" value="5000">
+                        <datalist id=volsettings>
+                            <option value="600">
+                            <option value="5000">
+                            <option value="10000">
+                        </datalist>
+                    </form>
+                    <p class="min-price">600 uah</p>
+                    <p class="max-price">10000 uah</p>
+                </div>
+
+                <p class="price">Select a term</p>
+                <div class="slidecontainer">
+                    <form name="myform" oninput="range1value.value = range1.valueAsNumber;">
+                        <p><output class="price1" name="range1value" for="range1">15 <p class="day">Days</p></output>
+                        </p>
+                        <input id="fader" class="slider" name="range1" type="range" step="1" list="volsettings" min="5"
+                            max="30" value="15">
+                        <datalist id=volsettings>
+                            <option value="5">
+                            <option value="15">
+                            <option value="30">
+                        </datalist>
+                    </form>
+                    <p class="min-price">5 days</p>
+                    <p class="max-price">30 days</p>
+                </div>
+            </div>
+
+            <div class="give_info">
+                <ul>
+                    <li class="left">Take</li>
+                    <li class="right">3.000,00 uah</li>
+                    <li class="left">Percent</li>
+                    <li class="right">4,20 uah</li>
+                    <li class="left">Give up to 8.10.23</li>
+                    <li class="right">3004,20 uah</li>
+                </ul>
+                <button class="give_money">Get money</button>
+                <a href="#" class="give_promo">I have a promo code</a>
+            </div>
+
+            <div class="feedback">
+                <p class="head_feedback">Feedback</p>
+
+                <div class="container1">
+                    <div class="card-carousel">
+                        <div class="card" id="1">
+                            <div class="image-container"></div>
+                            <p>Alex</p>
+                            <p>24.01.2022</p>
+                            <p>Брав тут гроші два рази, отримував потрібні суми, і очікування щодо переплат були такими,
+                                як обумовлено. Окремий плюс компанії — прозорі умови. У договорі все ясно прописано —
+                                знаєш, скільки береш, скільки будеш повинен повернути і які відсотки. Проблем при
+                                отриманні грошей і погашенні жодного разу не виникло.</p>
+                        </div>
+                        <div class="card" id="2">
+                            <div class="image-container"></div>
+                            <p>James</p>
+                            <p>11.04.2022</p>
+                            <p>Брав тут гроші два рази, отримував потрібні суми, і очікування щодо переплат були такими,
+                                як обумовлено. Окремий плюс компанії — прозорі умови. У договорі все ясно прописано —
+                                знаєш, скільки береш, скільки будеш повинен повернути і які відсотки. Проблем при
+                                отриманні грошей і погашенні жодного разу не виникло.</p>
+                        </div>
+                        <div class="card" id="3">
+                            <div class="image-container"></div>
+                            <p>Denis</p>
+                            <p>07.05.2019</p>
+                            <p>Брав тут гроші два рази, отримував потрібні суми, і очікування щодо переплат були такими,
+                                як обумовлено. Окремий плюс компанії — прозорі умови. У договорі все ясно прописано —
+                                знаєш, скільки береш, скільки будеш повинен повернути і які відсотки. Проблем при
+                                отриманні грошей і погашенні жодного разу не виникло.</p>
+                        </div>
+                        <div class="card" id="4">
+                            <div class="image-container"></div>
+                            <p>Anna</p>
+                            <p>22.10.2020</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+                        </div>
+                        <div class="card" id="5">
+                            <div class="image-container"></div>
+                            <p>Oleg</p>
+                            <p>14.01.2021</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="partners">
+                <p class="head_partners"> Partners</p>
+                <div class="partner">
+                    <ul class="partner-content">
+                      <li><i class="bank1"><img src="img/nationalBank 1.svg" alt="photo_bank"></i></li>
+                      <li><i class="bank2"><img src="img/comodo.svg" alt="photo_bank"></i></li>
+                      <li><i class="bank3"><img src="img/kievstar.svg" alt="photo_bank"></i></li>
+                      <li><i class="bank4"><img src="img/bank_id.svg" alt="photo_bank"></i></li>
+                      <li><i class="bank5"><img src="img/iBox 1.svg" alt="photo_bank"></i></li>
+                      <li><i class="bank6"><img src="img/pci_dss.svg" alt="photo_bank"></i></li>
+                      <li><i class="bank7"><img src="img/logo 2.svg" alt="photo_bank"></i></li>
+                      <li><i class="bank8"><img src="img/logo-color.svg" alt="photo_bank"></i></li>
+                      <li><i class="bank9"><img src="img/visa.svg" alt="photo_bank"></i></li>
+                      <li><i class="bank10"><img src="img/ubki-logo-ru-1-2x-e1522678593336.svg" alt="photo_bank"></i></li>
+                      <li><i class="bank11"><img src="img/logo.svg" alt="photo_bank"></i></li>
+                      <li><i class="bank12"><img src="img/comodo.svg" alt="photo_bank"></i></li>
+                    </ul>
+                  </div>
+            </div>
+
+            <div class="conditions">
+                <p class="head_conditions">Terms of online credit card</p>
+                <div class="info_container">
+                    <ul>
+                        <li class="head_left_info">Type of loan</li>
+                        <li class="head_middle_info">The first loan</li>
+                        <li class="head_right_info">Re-credit</li>
+                    </ul>
+                    <ul>
+                        <li class="left_info">Total</li>
+                        <li class="middle_info">To 10000 uah</li>
+                        <li class="right_info">To 20000 uah</li>
+                    </ul>
+                    <ul>
+                        <li class="left_info">Interest rate</li>
+                        <li class="middle_info">1.9% per day - standard interest rate (annual interest rate -
+                            693.5%). The rate can be reduced to 0.01% per day according to the loyalty program (annual
+                            interest rate - 3.65%)</li>
+                        <li class="right_info">1.9% per day - standard interest rate (annual interest rate -
+                            693.5%). The rate can be reduced to 0.01% per day according to the loyalty program (annual
+                            interest rate - 3.65%)</li>
+                    </ul>
+                    <ul>
+                        <li class="left_info">Check-in time</li>
+                        <li class="middle_info">To 15 minuts</li>
+                        <li class="right_info">To 5 minuts</li>
+                    </ul>
+                    <ul>
+                        <li class="left_info">Term</li>
+                        <li class="middle_info">3-30 days</li>
+                    </ul>
+                    <ul>
+                        <li class="left_info">Age of the borrower</li>
+                        <li class="middle_info">From 18 to 65 years</li>
+                    </ul>
+                    <ul>
+                        <li class="left_info">Ways to get a loan</li>
+                        <li class="middle_info">The loan is issued online</li>
+                    </ul>
+                    <ul>
+                        <li class="left_info">Required for an online loan</li>
+                        <li class="middle_info">Passport, TIN (RNOKPP), a valid payment card issued in your name,
+                            cellphone</li>
+                        <li class="right_info">You do not need to provide documents when applying for another loan</li>
+                    </ul>
+                    <ul>
+                        <li class="left_info">Possibility to extend the loan</li>
+                        <li class="middle_info">Without restrictions, in accordance with the terms of the standard interest rate agreement
+                            rate</li>
+                        <li class="right_info">Without restrictions, in accordance with the terms of the standard interest rate agreement
+                            rate</li>
+                    </ul>
+                    <ul>
+                        <li class="left_info">Benefits</li>
+                        <li class="middle_info">The loan is issued at a reduced interest rate. The design is the same
+                            dayь</li>
+                        <li class="right_info">You do not need to register when re-applying. Decision
+                            will be known in a few minutes</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="credit_online">
+                <p class="head_credit_online">
+                    How to get a profitable loan online?
+                </p>
+                <p class="desc">Regardless of your current location and time of day, you can get less credit
+                    than in half an hour. This requires only an active payment card of any bank in Ukraine and
+                    Internet. Next we will tell you how to use the service and get a credit card.</p>
+                <p class="head_desc">In what situation will online credit card help?</p>
+                <p class="desc">Examples of situations when it is advantageous to turn to an MFI to quickly get money on credit:
+                </p>
+                <ul class="list_desc">
+                    <li>delayed salary and lack of funds for daily expenses (food, medicine, payment
+                        travel, etc.);</li>
+                    <li>there were unforeseen expenses during rest, business trip, etc .;</li>
+                    <li>you need to pay for a purchase or service, but it is not possible to pay in cash;</li>
+                    <li>credit history rating does not allow you to take a loan for the desired amount. One way
+                        rehabilitate CI - periodically take loans from microfinance institutions and repay them on time.
+                        Deadlines and amounts do not matter. The key factor is timely loan closure.</li>
+                </ul>
+                <p class="desc">As a rule, such situations require quick action, so online credit is optimal
+                    Entrance.</p>
+                <p class="head_desc">Where is the fastest and easiest way to get a loan online in Ukraine?</p>
+                <p class="desc">In Ukraine, online lending services are provided by microfinance companies and banks. The latter
+                    ready to cooperate with the borrower after a thorough analysis of credit history and documents. How
+                    as a rule, in addition to the passport and TIN, it is a certificate of income and from the place of work, documents confirming
+                    the presence of real estate or a car. In addition, the bank is reluctant to lend to borrowers who
+                    employed informally.</p>
+                <p class="desc">MFIs are less demanding of their clients, and everything is done remotely. Must be submitted
+                    application, fill in the registration form, indicate the passport (or ID-card), TIN (RNOKPP) and your
+                    payment card. Also, following the instructions, it is necessary to pass verification. Positive credit
+                    history and formal employment are not determinants in decision-making
+                    applications.</p>
+            </div>
+            <div class="conditions_credits">
+                <p class="head_conditions_credits">
+                    Lending services
+                </p>
+                <div class="button_info">
+                    <ul>
+                        <li><a href=""><button class="button">Take a quick loan online</button></a></li>
+                        <li><a href=""><button class="button">Loans from 18 years on the card</button></a></li>
+                        <li><a href=""><button class="button">Urgent loans without failure online</button></a></li>
+                        <li><a href=""><button class="button">Online credit card without income certificates</button></a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li><a href=""><button class="button">Online loan calculator</button></a></li>
+                        <li><a href=""><button class="button">Round-the-clock credit cards</button></a></li>
+                        <li><a href=""><button class="button">Consumer credit card</button></a></li>
+                        <li><a href=""><button class="button">Money to salary</button></a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <ul class="nav">
+                <li><a href="">News </a> </li>
+                <li><a href="">Documents</a> </li>
+                <li><a href="">Contacts</a> </li>
+            </ul>
+            <div class="contacts">
+                <p class="phone"> <img src="img/phone (2).svg" alt="phone"> 0 800 75 33 63 </p>
+                <a class="mail"> <img src="img/mail.svg" alt="mail"> info@creditplus.ua</a>
+                <p class="clock"> <img src="img/clock.svg" alt="clock"> Mon-Fri: 8:00 - 23:00, Sat-Sun: 9:00 - 21:00 </p>
+                <p class="desc">Aventus Ukraine LLC USREOU 41078230, 03062, Kyiv, Peremohy Avenue, 90-A Financial Institution Registration Certificate, FC series №870 dated 28.02.2017, License № 756 NKFP dated 28.03.2017, License "1860 NKFP dated 24.09 .2019</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="main_en.js"></script>
+</body>
+
+</html>

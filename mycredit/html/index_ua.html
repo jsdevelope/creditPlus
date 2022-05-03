@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font-family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <!-- logo-site -->
+    <link rel="stylesheet" href="img/Component 31.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="img/Component 31.svg" type="image/x-icon">
+    <!-- style -->
+    <link rel="stylesheet" href="style_ua.css">
+    <!-- name -->
+    <title>MyCredit</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="header_cap">
+                <img src="img/Component 32.svg" alt="logo">
+                <ul class="info">
+                    <li>0 (800) 780-000</li>
+                    <li>Безкоштовно по Україні</li>
+                </ul>
+                <ul>
+                    <li><a href="index_ua.html"><button class="lang">UA</button></a></li>
+                    <li><a href="index_en.html"><button class="lang">EN</button></a></li>
+                </ul>
+                <ul>
+                    <li><a href=""><button class="log"><img src="img/Group 525.png" alt=""> Увійти</button></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="aboute">
+        <div class="container">
+            <img src="img/Frame 531.svg" alt="photo">
+
+            <div class="slider_range">
+
+                <p class="price">Вибрати суму</p>
+                <div class="slidecontainer">
+                    <form name="myform" oninput="range1value.value = range1.valueAsNumber;">
+                        <p><output class="price1" name="range1value" for="range1">5000 <p class="ghr">грн</p></output>
+                        </p>
+                        <input id="fader" class="slider" name="range1" type="range" step="100" list="volsettings"
+                            min="600" max="10000" value="5000">
+                        <datalist id=volsettings>
+                            <option value="600">
+                            <option value="5000">
+                            <option value="10000">
+                        </datalist>
+                    </form>
+                    <p class="min-price">600 грн</p>
+                    <p class="max-price">10000 грн</p>
+                </div>
+
+                <p class="price">Вибрати термін</p>
+                <div class="slidecontainer">
+                    <form name="myform" oninput="range1value.value = range1.valueAsNumber;">
+                        <p><output class="price1" name="range1value" for="range1">15 <p class="day">Днів</p></output>
+                        </p>
+                        <input id="fader" class="slider" name="range1" type="range" step="1" list="volsettings" min="5"
+                            max="30" value="15">
+                        <datalist id=volsettings>
+                            <option value="5">
+                            <option value="15">
+                            <option value="30">
+                        </datalist>
+                    </form>
+                    <p class="min-price">5 днів</p>
+                    <p class="max-price">30 днів</p>
+                </div>
+            </div>
+
+            <div class="give_info">
+                <ul>
+                    <li class="left">Берете</li>
+                    <li class="right">3.000,00 грн</li>
+                    <li class="left">Відсотки</li>
+                    <li class="right">4,20 грн</li>
+                    <li class="left">Віддаєте до 8.10.23</li>
+                    <li class="right">3004,20 грн</li>
+                </ul>
+                <button class="give_money">Отримати гроші</button>
+            </div>
+
+            <div class="feedback">
+                <p class="head_feedback"> Відгуки</p>
+
+                <div class="container1">
+                    <div class="card-carousel">
+                        <div class="card" id="1">
+                            <div class="image-container"></div>
+                            <p>Алекс</p>
+                            <p>24.01.2022</p>
+                            <p>Брав тут гроші два рази, отримував потрібні суми, і очікування щодо переплат були такими,
+                                як обумовлено. Окремий плюс компанії — прозорі умови. У договорі все ясно прописано —
+                                знаєш, скільки береш, скільки будеш повинен повернути і які відсотки. Проблем при
+                                отриманні грошей і погашенні жодного разу не виникло.</p>
+                        </div>
+                        <div class="card" id="2">
+                            <div class="image-container"></div>
+                            <p>Джейм</p>
+                            <p>11.04.2022</p>
+                            <p>Брав тут гроші два рази, отримував потрібні суми, і очікування щодо переплат були такими,
+                                як обумовлено. Окремий плюс компанії — прозорі умови. У договорі все ясно прописано —
+                                знаєш, скільки береш, скільки будеш повинен повернути і які відсотки. Проблем при
+                                отриманні грошей і погашенні жодного разу не виникло.</p>
+                        </div>
+                        <div class="card" id="3">
+                            <div class="image-container"></div>
+                            <p>Денис</p>
+                            <p>07.05.2019</p>
+                            <p>Брав тут гроші два рази, отримував потрібні суми, і очікування щодо переплат були такими,
+                                як обумовлено. Окремий плюс компанії — прозорі умови. У договорі все ясно прописано —
+                                знаєш, скільки береш, скільки будеш повинен повернути і які відсотки. Проблем при
+                                отриманні грошей і погашенні жодного разу не виникло.</p>
+                        </div>
+                        <div class="card" id="4">
+                            <div class="image-container"></div>
+                            <p>Анна</p>
+                            <p>22.10.2020</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+                        </div>
+                        <div class="card" id="5">
+                            <div class="image-container"></div>
+                            <p>Олег</p>
+                            <p>14.01.2021</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="partners">
+                <p class="head_partners"> Партнери</p>
+                <div class="partner">
+                    <ul class="partner-content">
+                        <li><i class="bank1"><img src="img/nationalBank 1.svg" alt="photo_bank"></i></li>
+                        <li><i class="bank2"><img src="img/comodo.svg" alt="photo_bank"></i></li>
+                        <li><i class="bank3"><img src="img/kievstar.svg" alt="photo_bank"></i></li>
+                        <li><i class="bank4"><img src="img/bank_id.svg" alt="photo_bank"></i></li>
+                        <li><i class="bank5"><img src="img/iBox 1.svg" alt="photo_bank"></i></li>
+                        <li><i class="bank6"><img src="img/pci_dss.svg" alt="photo_bank"></i></li>
+                        <li><i class="bank7"><img src="img/logo 2.svg" alt="photo_bank"></i></li>
+                        <li><i class="bank8"><img src="img/logo-color.svg" alt="photo_bank"></i></li>
+                        <li><i class="bank9"><img src="img/visa.svg" alt="photo_bank"></i></li>
+                        <li><i class="bank10"><img src="img/ubki-logo-ru-1-2x-e1522678593336.svg" alt="photo_bank"></i>
+                        </li>
+                        <li><i class="bank11"><img src="img/logo.svg" alt="photo_bank"></i></li>
+                        <li><i class="bank12"><img src="img/comodo.svg" alt="photo_bank"></i></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="conditions">
+                <p class="head_conditions">Умови оформлення онлайн-кредиту на картку</p>
+                <div class="info_container">
+                    <ul>
+                        <li class="head_left_info">Тип кредиту</li>
+                        <li class="head_middle_info">Перший кредит</li>
+                        <li class="head_right_info">Повторний кредит</li>
+                    </ul>
+                    <ul>
+                        <li class="left_info">Сума</li>
+                        <li class="middle_info">До 10000 грн</li>
+                        <li class="right_info">До 20000 грн</li>
+                    </ul>
+                    <ul>
+                        <li class="left_info">Процентна ставка</li>
+                        <li class="middle_info">1,9% на день — стандартна процентна ставка (річна процентна ставка —
+                            693,5%). Ставка може бути знижена до 0,01% на день згідно з програмою лояльності (річна
+                            процентна ставка — 3,65%)</li>
+                        <li class="right_info">1,9% на день — стандартна процентна ставка (річна процентна ставка —
+                            693,5%). Ставка може бути знижена до 0,01% на день згідно з програмою лояльності (річна
+                            процентна ставка — 3,65%)</li>
+                    </ul>
+                    <ul>
+                        <li class="left_info">Час оформлення</li>
+                        <li class="middle_info">До 15 хвилин</li>
+                        <li class="right_info">До 5 хвилин</li>
+                    </ul>
+                    <ul>
+                        <li class="left_info">Термін</li>
+                        <li class="middle_info">3-30 днів</li>
+                    </ul>
+                    <ul>
+                        <li class="left_info">Вік позичальника</li>
+                        <li class="middle_info">Від 18 до 65 років</li>
+                    </ul>
+                    <ul>
+                        <li class="left_info">Способи отримання кредиту</li>
+                        <li class="middle_info">Кредит оформляється в онлайн-режимі</li>
+                    </ul>
+                    <ul>
+                        <li class="left_info">Необхідне для оформлення онлайн-кредиту</li>
+                        <li class="middle_info">Паспорт, ІПН (РНОКПП), дійсна платіжна карта, видана на ваше ім’я,
+                            мобільний телефон</li>
+                        <li class="right_info">Під час оформлення повторного кредиту надавати документи не потрібно</li>
+                    </ul>
+                    <ul>
+                        <li class="left_info">Можливість пролонгації кредиту</li>
+                        <li class="middle_info">Без обмежень, відповідно до умов договору за стандартною процентною
+                            ставкою</li>
+                        <li class="right_info">Без обмежень, відповідно до умов договору за стандартною процентною
+                            ставкою</li>
+                    </ul>
+                    <ul>
+                        <li class="left_info">Переваги</li>
+                        <li class="middle_info">Кредит видається зі зниженою процентною ставкою. Оформлення в той самий
+                            день</li>
+                        <li class="right_info">Під час повторного звернення не потрібно проходити реєстрацію. Рішення
+                            буде відомо за кілька хвилин</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="credit_online">
+                <p class="head_credit_online">
+                    Як отримати прибутковий кредит онлайн?
+                </p>
+                <p class="desc">Незалежно від поточного місця розташування і часу доби ви можете отримати кредит менш
+                    ніж за пів години. Для цього потрібні тільки активна платіжна картка будь-якого банку України та
+                    інтернет. Далі ми розповімо, як скористатися послугою й отримати кредит на картку вигідно.</p>
+                <p class="head_desc">У якій ситуації допоможе онлайн-кредит на картку?</p>
+                <p class="desc">Приклади ситуацій, коли вигідно звернутися до МФО, щоб швидко отримати гроші в кредит:
+                </p>
+                <ul class="list_desc">
+                    <li>затримали зарплату й не вистачає коштів на повсякденні витрати (харчові продукти, ліки, оплату
+                        проїзду тощо);</li>
+                    <li>з'явилися непередбачені витрати під час відпочинку, відрядження тощо;</li>
+                    <li>потрібно розрахуватися за покупку або послугу, але немає можливості оплатити готівкою;</li>
+                    <li>рейтинг кредитної історії не дозволяє взяти кредит на бажану суму. Один зі способів
+                        реабілітувати КІ — періодично брати кредити в мікрофінансових організаціях і вчасно погашати їх.
+                        Строки та суми не мають значення. Ключовий фактор — своєчасне закриття кредиту.</li>
+                </ul>
+                <p class="desc">Як правило, подібні ситуації вимагають швидких дій, тому онлайн-кредит — оптимальний
+                    вихід.</p>
+                <p class="head_desc">Де швидше й легше за все взяти кредит онлайн в Україні?</p>
+                <p class="desc">В Україні послуги онлайн-кредитування надають мікрофінансові компанії та банки. Останні
+                    готові співпрацювати з позичальником після ретельного аналізу кредитної історії й документів. Як
+                    правило, крім паспорта та ІПН, це довідка про доходи та з місця роботи, документи, які підтверджують
+                    наявність нерухомості або автомобіля. Крім того, банк неохоче видає кредити позичальникам, які
+                    працевлаштовані неофіційно.</p>
+                <p class="desc">МФО менш вимогливі до своїх клієнтів, і все проходить дистанційно. Потрібно подати
+                    заявку, заповнити реєстраційну анкету, вказати дані паспорта (або ID-карти), ІПН (РНОКПП) і своєї
+                    платіжної картки. Також, дотримуючись інструкції, необхідно пройти верифікацію. Позитивна кредитна
+                    історія й офіційне працевлаштування не є визначальними факторами під час ухвалення рішення щодо
+                    заявки.</p>
+            </div>
+            <div class="conditions_credits">
+                <p class="head_conditions_credits">
+                    Послуги кредитування
+                </p>
+                <div class="button_info">
+                    <ul>
+                        <li><a href=""><button class="button">Взяти швидку займ онлайн</button></a></li>
+                        <li><a href=""><button class="button">Кредити з 18 років на карту</button></a></li>
+                        <li><a href=""><button class="button">Термінові кредити без відмови онлайн</button></a></li>
+                        <li><a href=""><button class="button">Кредит онлайн на карту без справок о доходах</button></a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li><a href=""><button class="button">Кредитний онлайн калькулятор</button></a></li>
+                        <li><a href=""><button class="button">Цілодобові кредити на картку</button></a></li>
+                        <li><a href=""><button class="button">Потребительский кредит на карту</button></a></li>
+                        <li><a href=""><button class="button">Гроші до зарплати</button></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <ul class="nav">
+                <li><a href="">Новини </a> </li>
+                <li><a href="">Документи</a> </li>
+                <li><a href="">Контакти</a> </li>
+            </ul>
+            <div class="contacts">
+                <p class="phone"> <img src="img/phone (2).svg" alt="phone"> 0 800 75 33 63 </p>
+                <a class="mail"> <img src="img/mail.svg" alt="mail"> info@creditplus.ua</a>
+                <p class="clock"> <img src="img/clock.svg" alt="clock"> Пн-Пт: 8:00 - 23:00, Сб-Нд: 9:00 - 21:00 </p>
+                <p class="desc">ТОВ "Авентус Україна" ЄДРПОУ 41078230, 03062, м.Київ, проспект Перемоги, 90-А Свідоцтво про реєстрацію Фінансової установи, серія ФК №870 від 28.02.2017 , Ліцензія № 756 НКФП від 28.03.2017 , Ліцензія № 1860 НКФП від 24.09.2019</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="main_ua.js"></script>
+</body>
+
+</html>
